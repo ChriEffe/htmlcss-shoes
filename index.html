@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,26 +11,42 @@
     <title>htmlcss-shoes</title>
 </head>
 <body>
-    <main class="container">
-        <div class="red relative">
-            <div class="content">
-                <img id="differente" src="img/01.png" alt="">
-                <div class="yellow-text">IL NOSTRO MODELLO DI PUNTA</div>
-            </div>
+
+    <!-- container -->
+    <main class="container relative">
+
+        <!-- button -->
+        <div class="link">
+            <ul>
+                <li><a href="#differente"><button type="submit">1</button></a></li>
+                <li><a href="#tommy"><button type="submit">2</button></a></li>
+                <li><a href="#converse"><button type="submit">3</button></a></li>
+            </ul>
         </div>
-        <div class="green relative">
-            <div class="content">
-                <img id="tommy" src="img/02.png" alt="">
-                <div class="yellow-text">IL NOSTRO MODELLO DI PUNTA</div>
+
+        <!-- first shoes -->
+            <div id="differente" class="red relative">
+                <div class="content">    
+                    <img src="img/01.png" alt="">
+                    <div class="yellow-text">IL NOSTRO MODELLO DI PUNTA</div>
+                </div>
             </div>
-        </div>
-        <div class="yellow relative">
-            <div class="content">
-                <img id="converse" src="img/03.png" alt="">
-                <div class="green-text">IL NOSTRO MODELLO DI PUNTA</div>
+
+            <!-- second shoes -->
+            <div id="tommy" class="green relative">
+                <div class="content">
+                    <img id="tommy" src="img/02.png" alt="">
+                    <div class="yellow-text">IL NOSTRO MODELLO DI PUNTA</div>
+                </div>
             </div>
-        </div>
+
+            <!-- third shoes -->
+            <div id="converse" class="yellow relative">
+                <div class="content">
+                    <img id="converse" src="img/03.png" alt="">
+                    <div class="green-text">IL NOSTRO MODELLO DI PUNTA</div>
+                </div>
+            </div>
     </main>
 </body>
-
 </html>
